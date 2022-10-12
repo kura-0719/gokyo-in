@@ -73,8 +73,6 @@
   .ex_charm_title_small {
     font-size: 60px;
   }
-
-
   .ex_how_wrap {
     margin-top: 200px;
     background-color: rgba(255,255,255,0.8);
@@ -151,13 +149,6 @@
     padding-right: 100px;
     position: absolute;
 }
-/* .cbp_tmtimeline > li .cbp_tmtime span:first-child {
-    font-size: 0.9em;
-    color: #bdd0db;
-}
-.cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child {
-    color: #6cbfee;
-} */
 .cbp_tmtimeline > li .cbp_tmicon {
     width: 40px;
     height: 40px;
@@ -184,12 +175,6 @@
     font-size: 2.0em;
     font-weight: bold;
 }
-/* .cbp_tmicon-phone:before {
-    content: "\e000";
-} */
-/* .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
-    background: #6cbfee;
-} */
 .cbp_tmtimeline > li .cbp_tmlabel {
     margin: 0 16px 40px 24%;
     background: #2573D8;
@@ -213,9 +198,6 @@
     font-size: 16px;
     line-height: 2;
 }
-/* .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
-    border-right-color: #6cbfee;
-} */
 .cbp_tmtimeline > li .cbp_tmlabel:after {
     right: 100%;
     border: solid transparent;
@@ -252,7 +234,6 @@
     width: 90%;
     margin: 0 auto;
     padding: 60px 0;
-    /* border-bottom: 4px dashed; */
     position: relative;
 }
 .border-box {
@@ -470,9 +451,6 @@
     .cbp_tmtimeline li {
         margin-top: 40px;
     }
-    /* .cbp_tmlabel {
-        margin-top: 40px;
-    } */
     .cbp_tmtimeline > li .cbp_tmlabel {
         width: 90%;
         margin: 0 auto;
