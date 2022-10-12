@@ -139,6 +139,62 @@ common
     z-index: -1;
     font-size: 60px;
   }
+
+  /* サブページ */
+  .subpage_top_wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+  }
+  .subpage_top_title {
+    position: relative;
+    margin-bottom: -8%;
+    margin-left: -8%;
+  }
+  .subpage_top_text_box {
+    width: 45%;
+    color: #fff;
+    background-color: #000;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 40px;
+    height: 100%;
+    margin: auto 0;
+    line-height: 2;
+  }
+  .subpage_top_img_box {
+    width: 49%;
+  }
+  .subpage_top_img {
+    width: 100%;
+    border: #000 solid 6px;
+    background-color: #fff;
+    padding: 4px;
+  }
+  .sub_overview_card {
+    background-color: #fff;
+    border: #000 6px solid;
+    width: 48%;
+  }
+  /* .sub_overview_card:last-child {
+    margin-top: 80px;
+  } */
+  .sub_overview_card_text_small {
+    font-size: 16px;
+    line-height: 2;
+    padding: 20px 20px 28px;
+    color: #000;
+    font-weight: bold;
+  }
+  .overview_card_text_small span {
+    margin-top: 16px;
+  }
+  .sub_overview_card_text_large {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 28px 12px 24px;
+  }
+
   /* 
   header
   */
@@ -689,6 +745,24 @@ common
       font-size: 14px;
       width: 58%;
     }
+
+    /* サブページ */
+    .subpage_top_text_box {
+        padding: 28px;
+        width: 340px;
+    }
+    .subpage_top_title {
+        margin-left: -2%;
+    }
+    .sub_overview_card_text_small {
+        padding: 16px 16px 20px;
+        line-height: 1.8;
+    }
+    .sub_overview_card_text_large {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 24px 10px 20px;
+    }
   }
   
   @media screen and (max-width: 900px) {
@@ -727,6 +801,26 @@ common
     }
     .footer_img {
       width: 374px;
+    }
+
+    /* サブページ */
+    .subpage_top_img_box {
+        width: 340px;
+    }
+    .subpage_top_text_box {
+        padding: 20px;
+    }
+    .sub_overview_card_text_small {
+        padding: 8px 8px 16px;
+        line-height: 1.8;
+    }
+    .sub_overview_card_text_small {
+        font-size: 14px;
+    }
+    .sub_overview_card_text_large {
+        font-size: 18px;
+        font-weight: bold;
+        padding: 20px 8px 18px;
     }
   }
   
@@ -899,4 +993,25 @@ common
       width: 100%;
       padding-bottom: 16px;
     }
+
+    /* サブページ */
+    .subpage_top_wrap {
+        display: block;
+    }
+    .subpage_top_img_box {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .subpage_top_text_box {
+        width: 80%;
+        margin: 80px auto 0;
+    }
   }
+  @media screen and (max-width: 600px){
+    .sub_overview_card_text_small {
+        padding: 8px 8px 20px;
+    }
+    .sub_overview_card {
+        width: 86%;
+    }
+}
